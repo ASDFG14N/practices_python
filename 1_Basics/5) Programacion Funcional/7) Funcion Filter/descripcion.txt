@@ -1,0 +1,2 @@
+»Aplica una funcion a todos los elementos de un objetos iterable.
+» Devuelve un objeto generador, de ahi que usemos la funcion list para convertirlo en lista

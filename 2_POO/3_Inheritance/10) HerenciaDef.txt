@@ -1,0 +1,31 @@
+La herencia en Python es una característica que permite crear nuevas clases a partir de clases existentes. 
+La nueva clase se conoce como CLASE HIJA o SUBCLASE y la clase original se conoce como CLASE PADRE o SUPERCLASE. 
+La subclase hereda todos los atributos y métodos de la superclase, lo que significa que puede utilizarlos 
+sin tener que volver a definirlos. La herencia también permite a la subclase sobrescribir o añadir nuevos 
+métodos a la superclase. Esto permite la reutilización de código y la organización más eficiente de la 
+información.
+en consclusion la Herencia nos permite definir nuevas clases a partir de otras ya existentes, lo cual nos
+proporciona una herramienta potente para ordenar y mantener el codigo.
+
+Una ves que tenemos nustra jerarquia de clases, llega el momento de implementasrlas en codigo. Se hace mediante
+el siguiente formato:
+
+class NombreSubClase(NombreSuperClase):
+        def_init_(self, posibles_parametros_inicializador):
+                Llamada_a_inicializador_de_super_clase
+                definicion_inicializador
+        def nombre_metodo_1(self, posibles_parametros_metodo_1):
+                definicion_metodo_1
+        ...
+
+        def nombre_metodo_n(self, posibles_parametros_metodo_n):
+                definicion_metodo_n
+
+Al indicar tras el nombre de la subclase el nombre de la superclase, le indicamos que herede los ampos y metodos
+de esta.
+la definicion del inicializador podemos hacerlo de dos maneras:
+
+super().__init__()
+mediante la palabra clave super(), que hace referencia a la super clase de la clase en la que estamos.Ejecutamos
+el inicializador de la super clase, necesario para crear los capos en esta. Esa es la forma mas moderna.
+NombreSuperclase.__init__(self)

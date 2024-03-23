@@ -1,0 +1,9 @@
+modulos
+-------
+modulo se denomina a cualquier codigo de python guardado en un archivo.py
+usando la delclaracion <<import mi_modulo>> podemos importar todos su contendino
+
+paquete
+-------
+un paquete es una carpeta que contiene modulos, paquete debe contener un archivo __init__.py
+un subpaquete tambien debe tener el mismo archivo __init__.py

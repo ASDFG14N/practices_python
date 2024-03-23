@@ -1,0 +1,2 @@
+La función map() en Python aplica una función a cada uno de los elementos de una lista.
+sintaxis: map(una_funcion, una_lista)

@@ -1,0 +1,4 @@
+Aplica continuamlente una misma funcion a los elementos de un objeto iterable.
+1.Aplica la funcion a los primeros dos elementos.
+2. Aplica la funcion al resultado del paso anterior y el tercer elemento.
+3. Sigue asi sucesivamente.

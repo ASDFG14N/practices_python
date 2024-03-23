@@ -1,0 +1,23 @@
+Existen tres tipos de metodos:
+*****************************
+
+-metodos de instancia
+
+-metodos estaticos:
+    Los metodos estaticos no pasan como parametro el argumento posicional self. Se definen usando e decorador
+    @staticmethod que se añade antes de definir el metodo estatico respectivo.
+    Un método decorado con @staticmethod se convierte en un método estático, es decir, se puede llamar 
+    desde la clase sin necesidad de crear una instancia de la misma. De manera similar, en Java, los
+    métodos estáticos se pueden llamar desde la clase sin necesidad de crear una instancia de la misma. 
+    En ambos lenguajes, los métodos estáticos no pueden acceder a variables de instancia y solo 
+    pueden acceder a variables estáticas.
+
+-metodos de clase:
+    un método de clase es un tipo especial de método que está asociado con la clase en lugar de con una 
+    instancia de la clase. Se definen utilizando el decorador @classmethod. La principal diferencia 
+    entre un método de clase y un método de instancia es que el primero tiene acceso a la clase misma 
+    como argumento, en lugar de a una instancia de la clase.
+    es decir, pasarle como argumento la palabra cls
+    Un método de clase se llama en la clase en sí en lugar de en una instancia de la clase. 
+    Los métodos de clase se utilizan generalmente cuando se desea realizar alguna operación que no 
+    depende de una instancia particular de la clase, sino que se aplica a la clase en su conjunto.

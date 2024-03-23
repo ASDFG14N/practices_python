@@ -1,0 +1,10 @@
+La herencia múltiple en Python es una característica que permite a una clase heredar de varias clases padre 
+al mismo tiempo. En lugar de heredar de una sola clase, una clase hija puede heredar de varias clases y acceder 
+a sus atributos y métodos. Esto es útil cuando se quiere reutilizar código de varias clases y combinar sus 
+funcionalidades en una sola clase hija. La herencia múltiple se implementa mediante la inclusión de varias 
+clases padre entre paréntesis en la definición de la clase hija. En caso de conflicto entre los atributos y 
+métodos de las clases padre, la clase hija puede sobrescribir los atributos y métodos para especificar su propia
+implementación.
+Como vemos, Python nos permite que una subclase herede de varias superclases. Para ello se debe seguir el 
+siguinete formato:
+imagen.png xd

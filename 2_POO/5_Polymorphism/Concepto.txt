@@ -1,0 +1,20 @@
+El polimorfismo es una de las cuatro características de la programación orientada a objetos (POO) y se 
+refiere a la capacidad de un objeto para tomar diferentes formas. 
+
+En Python, el polimorfismo se puede lograr mediante la sobrecarga de operadores, la sobreescritura de métodos 
+y la utilización de métodos genéricos.
+
+La sobrecarga de operadores permite que un operador tenga diferentes comportamientos en función de los 
+argumentos que reciba. Por ejemplo, el operador "+" puede utilizarse para sumar dos números, 
+concatenar dos cadenas o unir dos listas.
+
+La sobreescritura de métodos, también conocida como redefinición, permite que una clase hija redefina 
+un método heredado de su clase padre. De esta manera, se puede personalizar el comportamiento del método 
+según las necesidades de la clase hija.
+
+Por último, los métodos genéricos permiten que una función o un método trabaje con argumentos de cualquier 
+tipo, sin importar su tipo específico. Por ejemplo, un método que multiplique dos argumentos puede funcionar
+tanto con números como con matrices, siempre y cuando ambos argumentos sean multiplicables.
+
+En resumen, el polimorfismo permite que un objeto tenga diferentes formas y comportamientos, lo que 
+aumenta la flexibilidad y reutilización del código en un programa.

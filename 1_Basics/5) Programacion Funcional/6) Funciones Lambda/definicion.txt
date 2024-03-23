@@ -1,0 +1,5 @@
+Son un tipo de funcion especial en Python que tienen la siguiente sintaxis.
+    lambda parametros: expresion
+»Son utiles para ejecutar funciones en una sola linea
+»Pueden tomar cualquier numero de argumentos
+»Tienen una limitacion: Solamente pueden contener una expresion

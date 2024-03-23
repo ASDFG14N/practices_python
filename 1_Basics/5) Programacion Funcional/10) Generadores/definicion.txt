@@ -1,0 +1,12 @@
+Generadores
+-----------
+
+Los generadores son tipos especiales de funciones quedevuelven un iterador que no almacena 
+su contenido completo en memoria, sino que "demora" la ejecución de una expresión hasta que su valor se solicita.
+
+Por ejemplo si creamos una lista, sin una funcion generadora, creara la lista pero con tantos datos como se lo hayamos
+pedido, lo cual ocupa un lugar en la memoria, y dependiendo de la cantidad de datos ese lugar asignado será perjudicial
+para el programa. Las funciones generadoras crean los datos a medida que el programador los solicita, por lo que no genera
+un sobrecarga de memoria.
+
+en lugar de usar la palabra return, usamos la palabra yield
